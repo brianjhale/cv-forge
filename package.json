@@ -1,0 +1,9 @@
+{
+  "name": "resume-forge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local-first ATS compatible resume builder",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
