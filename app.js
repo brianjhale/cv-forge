@@ -472,3 +472,7 @@ document.querySelector('#newCvButton').addEventListener('click', () => {
   renderFields(); updatePreview(); updateCompletion(); saveData(); closeLaunchScreen();
 });
 document.querySelector('#launchImportButton').addEventListener('click', () => document.querySelector('#pdfInput').click());
+
+if ('serviceWorker' in navigator && /^https?:$/.test(window.location.protocol)) {
+  navigator.serviceWorker.register('./sw.js').catch(() => {});
+}
