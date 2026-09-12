@@ -1,6 +1,6 @@
 # CV Forge
 
-   Live version: https://brianjhale.github.io/cv-forge/
+   Live version: https://native-state-tools.github.io/cv-forge/
 
 A local-first ATS-compatible CV builder built with HTML, CSS, and JavaScript.
 
